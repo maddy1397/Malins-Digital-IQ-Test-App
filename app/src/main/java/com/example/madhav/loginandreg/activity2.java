@@ -3,7 +3,6 @@ package com.example.madhav.loginandreg;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -28,22 +27,25 @@ public class activity2 extends AppCompatActivity {
 
     public void SigninClicked(View view)
     {
+        Intent intent=new Intent(this,activity3.class);
+        startActivity(intent);
         String s1=e1.getText().toString();
+
         String s2=e2.getText().toString();
-       try {
-           pass = db.getpass(s1);
-       }catch (Exception e){
-           Toast.makeText(this,"Wrong Input",Toast.LENGTH_SHORT).show();
-       }
-       if (s2.equals(pass)) {
-             Intent intent = new Intent(this, activity3.class);
-            intent.putExtra("User_id",s1);
-            startActivity(intent);
-        }
-        else {
-            Log.d("Information Not Valid", "In Else Of SIgn In");
-            Toast.makeText(activity2.this, "Invalid Input", Toast.LENGTH_SHORT).show();
-        }
+//       try {
+//           pass = db.getpass(s1);
+//       }catch (Exception e){
+//           Toast.makeText(this,"Wrong Input",Toast.LENGTH_SHORT).show();
+//       }
+//       if (s2.equals(pass)) {
+//             Intent intent = new Intent(this, activity3.class);
+//            intent.putExtra("User_id",s1);
+//            startActivity(intent);
+//        }
+//        else {
+//            Log.d("Information Not Valid", "In Else Of SIgn In");
+//            Toast.makeText(activity2.this, "Invalid Input", Toast.LENGTH_SHORT).show();
+//        }
 
     }
 
