@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "341432267288",
+    "firebase_url": "https://loginandreg-2a658.firebaseio.com",
+    "project_id": "loginandreg-2a658",
+    "storage_bucket": "loginandreg-2a658.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341432267288:android:85b45ac4461ca819",
+        "android_client_info": {
+          "package_name": "com.example.madhav.loginandreg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341432267288-agbnt2hdkg8rrekigtrhtqhagjctv6t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.madhav.loginandreg",
+            "certificate_hash": "2879594dd0bfe4f0633e6a46658700002e3b29e3"
+          }
+        },
+        {
+          "client_id": "341432267288-aavhqp13o2cjkcoqkp7r4uq5jj36fl0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30bjpivXPAeHVUM3lTz-lJbYZDkI2W5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341432267288-aavhqp13o2cjkcoqkp7r4uq5jj36fl0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

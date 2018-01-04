@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.madhav.loginandreg.Arithmetic"
+    tools:showIn="@layout/activity_arithmetic">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.1=  Place 9 blocks(coins) in a row saying:Count these with your finger?"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/q1">
+        <RadioButton
+            android:onClick="nonzero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1           "
+            android:id="@+id/oneone" />
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "0"
+            android:onClick="zero"
+            android:id="@+id/zero" />
+    </RadioGroup>
+        <Chronometer
+            android:id="@+id/time1"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:onClick="ChronoClicked"
+           />
+<Button
+    android:id="@+id/chrono1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="startchrono"
+    android:text="START TIME"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.2=Rearrange the row saying: Give 4 blocks to me?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q2">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/twoone" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:onClick="zero"
+                android:id="@+id/twozero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time2"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.3=Rearrange as above saying: Take 7 and give me the rest? "
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q3">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/threeone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/threezero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time3"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.4=If i break this(Pencil) in half,how many peices will be there?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q4">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/fourone" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:onClick="zero"
+                android:id="@+id/fourzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time4"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.5=Prem has 4 rupees.Mummy gives him 2 more.How many has he?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q5">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/fiveone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/fivezero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time5"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.6=Rita has 8 bananas and buys 6 more.How manu has she?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q6">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/sixeone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/sixzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time6"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/chrono6"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.7=Teacher has 12 books and sells 5. How many has she left?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q7">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/sevenone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/sevenzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time7"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/chrono7"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.8=If one pencil costs 7p.What will 3 pencil cost?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q8">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/eightone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/eightzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time8"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:id="@+id/chrono8"
+            android:text="START TIME"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.9=A milkman has 25 bottles of milk,he sold all.How many bottles had he left?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q9">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/nineone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/ninezero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time9"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.10=A workman after finishing his job was given Rs.36 for his pay.He had agreed for Rs.4 each day.Tell me how many days he worked?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q10">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/tenone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/tenzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time10"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+           />
+        <Button
+            android:id="@+id/chrono10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.11=Let us say you want to buy some marbles(ribbons).They cost 30(make this distinct from 13) paise a dozen.Now you have a rupee and want to buy 3 dozen.How much change will you recieve? (Ans. 10p)"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q11">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/elevenone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/elevenzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time11"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.12=For boys(girls) have gathered 72 marbles(flowers).If they divide them equally.How much will each get?(Ans 18)"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q12">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/twelveone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/twelvezero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time12"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.13=Problem to be Presented on seperate card. If 3 pencil costs.....?Ans-40"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q13">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/thirteenone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/thirteenzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time13"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.14=Problem to be Presented on seperate card. If bus fares is 20.....?Ans-55"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q14">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/fourteenone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/fourteenzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time14"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.15=Problem to be Presented on seperate card. Prem and Raj start.....? Ans-8"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q15">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/fifteenone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/fifteenzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time15"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.16=36 is two third of what whole number?(54)"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q16">
+            <RadioButton
+                android:onClick="nonzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1           "
+                android:id="@+id/sixteenone" />
+            <RadioButton
+                android:onClick="zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "0"
+                android:id="@+id/sixteenzero" />
+        </RadioGroup>
+        <Chronometer
+            android:id="@+id/time16"
+            android:layout_marginLeft="160dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="ChronoClicked"
+            />
+        <Button
+            android:id="@+id/chrono16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="startchrono"
+            android:text="START TIME"/>
+
+        <Button
+            android:onClick="Submit"
+            android:text="Submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

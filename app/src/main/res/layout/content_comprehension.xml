@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.madhav.loginandreg.comprehension"
+    tools:showIn="@layout/activity_comprehension">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.1=  What should you do if you cut your finger?(e.g. while sharpening a pencil)"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/onetwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/oneone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.2=What would you do if your mother sends you to buy sugar and the shopkeeper says he does not have anymore?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/twotwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/twoone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/twozero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0 " />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.3=What would you do if a boy(girl) smaller than you starts to fight with you?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/threetwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/threeone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/threezero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.4=What should you do if through your own fault the ball of your friend is lost and you cannot find it?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/fourone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/fourzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.5=What should you do if you find a railway line broken and at the same time noticed a train about to come?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/fiveone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/fivezero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.6=Instead of spending all your money why would it be better to save some,for example in a bank?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/sixone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/sixzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q7.=Why good is it to send criminals to jails to prisons?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/sevenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/sevenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.8=Why does the small shopkeeper prefer cash to giving credit?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/eightone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/eightzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.9=Why should we respect and obey those who teach us?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/nineone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/ninezero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.10= Why should we be kind to animals?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/tenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/tenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.11=Why should Government set examinations when selecting job applicants?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.12=Why is bad to break a promise?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.13=Why is it wrong to steel?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.14=Why is a Parliament needed in our system of Government?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           "
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="submit"
+            android:text="SUBMIT" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

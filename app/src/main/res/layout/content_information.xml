@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.madhav.loginandreg.information"
+    tools:showIn="@layout/activity_information">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.1=  How many ears have you?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q1">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/oneone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/zero" />
+       </RadioGroup>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.2= What do you call this finger(show thumb)?"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q2">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/twoone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0 "
+               android:id="@+id/twozero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.3=How many legs has a dog?"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q3">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/threeone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/threezero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.4=What animal gives us milk?"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q4">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/fourone" />
+           <RadioButton
+               android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/fourzero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.5=How do we make boil(apply heat etc)?"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q5">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/fiveone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/fivezero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.6=Where will you go to buy sugar(ribbon-girls) (market,kirana,local-shop's name)?"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q6">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/sixone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/sixzero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q7.How many paise in a rupee?"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q7">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/sevenone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/sevenzero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.8=How many days in a week?"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q8">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/eightone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/eightzero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.9=Where does the sun set?"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q9">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/nineone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/ninezero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.10= What are the seasons of the year(in India)? (atleast cold,hot ,rainy)"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q10">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/tenone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/tenzero" />
+       </RadioGroup>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Q.11=Which is the top color of Flag of our counntry?(red,orange etc)"
+           android:textSize="18sp"
+           android:textColor="@android:color/black" />
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/q11">
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1           "
+               android:id="@+id/elevenone" />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text= "0"
+               android:id="@+id/elevenzero" />
+       </RadioGroup>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="SUBMIT"
+           android:onClick="submit"/>
+
+
+
+   </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

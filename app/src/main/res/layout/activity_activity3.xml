@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_activity3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.madhav.loginandreg.activity3"
+    android:background="@android:color/background_light">
+
+    <Button
+        android:text="Show all Names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="showall"/>
+
+    <TextView
+        android:text="Verbal Scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Verbal"
+        android:textSize="25sp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:isScrollContainer="true"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="Arithmetic"
+        android:id="@+id/Verbal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="arithmetic"
+        android:layout_alignBaseline="@+id/verbal1"
+        android:layout_alignBottom="@+id/verbal1"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Vocab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/verbal5"
+        android:onClick="vocab"
+        android:layout_below="@+id/Verbal3"
+        android:layout_alignLeft="@+id/Verbal3"
+        android:layout_alignStart="@+id/Verbal3"
+        android:layout_alignRight="@+id/Verbal3"
+        android:layout_alignEnd="@+id/Verbal3"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:text="Perfromance Scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="30sp"
+        android:layout_below="@+id/Verbal4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="mazes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Perform5"
+        android:onClick="mazes"
+        android:layout_alignBaseline="@+id/Perfrom4"
+        android:layout_alignBottom="@+id/Perfrom4"
+        android:layout_alignLeft="@+id/verbal5"
+        android:layout_alignStart="@+id/verbal5"
+        android:layout_alignRight="@+id/verbal5"
+        android:layout_alignEnd="@+id/verbal5"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Perfrom2"
+        android:onClick="block"
+        android:layout_alignBaseline="@+id/Perform1"
+        android:layout_alignBottom="@+id/Perform1"
+        android:layout_alignLeft="@+id/Perform5"
+        android:layout_alignStart="@+id/Perform5"
+        android:layout_alignRight="@+id/verbal5"
+        android:layout_alignEnd="@+id/verbal5"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Coding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/Perfrom4"
+        android:onClick="coding"
+        android:layout_below="@+id/Perform1"
+        android:layout_alignRight="@+id/Perform1"
+        android:layout_alignEnd="@+id/Perform1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Perfrom3"
+        android:onClick="object"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Verbal4"
+        android:layout_alignStart="@+id/Verbal4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/verbal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Verbal2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/Verbal2"
+        android:layout_below="@+id/Verbal"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="information"
+        android:text="Information"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Comprehension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Verbal2"
+        android:onClick="comprehension"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/verbal1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Analogies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Verbal4"
+        android:onClick="analogies"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/verbal5"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/background_light"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_toRightOf="@+id/Verbal2"
+        android:layout_toEndOf="@+id/Verbal2" />
+
+    <Button
+        android:text="picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/Perform1"
+        android:onClick="picture"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:background="@android:color/holo_green_dark"
+        android:layout_alignRight="@+id/Verbal2"
+        android:layout_alignEnd="@+id/Verbal2" />
+
+    <ImageView
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/Perform5"
+        android:layout_toStartOf="@+id/Perform5" />
+
+</RelativeLayout>

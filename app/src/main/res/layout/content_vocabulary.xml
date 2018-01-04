@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.madhav.loginandreg.Vocabulary"
+    tools:showIn="@layout/activity_vocabulary">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.1=  CYCLE"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/onetwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/oneone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.2=KNIFE"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/twotwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/tone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/tzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0 " />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.3=SHOE(CHAPPAL)"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/threetwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/threeone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/threezero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.4=UMBRELLA"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/fourtwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/fourone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/fourzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.5=PILLOW"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/fivetwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/fiveone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/fivezero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.6=LETTER"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/sixtwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/sixone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/sixzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q7.=NAIL"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/seventwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/sevenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/sevenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.8=DONKEY"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/eighttwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/eightone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/eightzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.9=LEATHER"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/ninetwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/nineone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/ninezero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.10=SWORD"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/tentwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/tenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/tenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.11=HAMMER"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/eleventwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:id="@+id/elevenone"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/elevenzero"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.12=MISCHIEF"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twelvetwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twelveone"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:id="@+id/twelvezero"
+                android:text="0" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.13=GOLD"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/thirteentwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/thirteenone"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:id="@+id/thirteenzero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.14=MEET"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           "
+                android:id="@+id/fourteentwo"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/fourteenone"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:id="@+id/fourteenzero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.15=CLEVER"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/fifteentwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/fifteenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/fifteenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.16=DIAMOND"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/sixteentwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/sixteenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/sixteenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0 " />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.17=BRAVE"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/seventeentwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/seventeenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/seventeenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.18=SHILLING"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           "
+                android:id="@+id/eighteentwo"/>
+
+            <RadioButton
+                android:id="@+id/eighteenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/eighteenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.19=GAMBLING"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/nineteenone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/nineteenzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.20=MICROSCOPE"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twentytwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/twentyone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/twentyzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.21=MARTYR"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twentyotwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/twentyoneone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/twentyozero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.22=EDITOR"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           "
+                android:id="@+id/twentyttwo"/>
+
+            <RadioButton
+                android:id="@+id/twentytone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/twentytzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.23=AMBASSADOR"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/twentythreetwo"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:id="@+id/thwentythreeone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/twentythreezero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.24=AUCTION"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           "
+                android:id="@+id/twentyfourtwo"/>
+
+            <RadioButton
+                android:id="@+id/twentyfourone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:id="@+id/twentyfourzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.25=STANZA"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:id="@+id/twentyfivetwo"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:id="@+id/twentyfiveone"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.26=PROVERB"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twentysixtwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:text="1           "
+                android:id="@+id/twentysixone"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:id="@+id/twentysixzero"
+                android:text="0" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.28=SHAMEFUL"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twentyeighttwo"
+                android:text="2           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twentyeightone"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:text="0" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.29=BUOY"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/q29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ongroupclick"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twentyninetwo"
+                android:text="2           "
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nonzero"
+                android:id="@+id/twentynineone"
+                android:text="1           " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zero"
+                android:id="@+id/twentyninezero"
+                android:text="0" />
+        </RadioGroup>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="submit"
+            android:text="SUBMIT" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "487979843517",
+    "firebase_url": "https://intutionprocess-d91b9.firebaseio.com",
+    "project_id": "intutionprocess-d91b9",
+    "storage_bucket": "intutionprocess-d91b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487979843517:android:85b45ac4461ca819",
+        "android_client_info": {
+          "package_name": "com.example.madhav.loginandreg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487979843517-j0mfbtjdjbodao6mjtflf3ts89mngpb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu7i2F9fJ8F5NrnbwpT4UxAEl9zLJBrf8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
